@@ -31,10 +31,17 @@
 
 ## Benefits of environmental valuation
 - Understandable for decision-makers
+- Positive value can be given to nature → not ignored
+- Enables selection between preservation (status quo) or development as well as ranking (by calculating Net Present Value) and selection of the best development option
+
 
 ## Willingness to pay (WTP)
-7. Willingness to accept (compensation) (WTA)
-8. What is the difference between ecological and environmental economics?
+___I don't know this___
+
+## Willingness to accept (compensation) (WTA)
+
+## What is the difference between ecological and environmental economics?
+
 9. Millennium Ecosystem Assessment – What are the main classified ecosystem services? (4)
 10. What is natural capital?
 11. The levels of biodiversity
