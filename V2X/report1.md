@@ -5,7 +5,7 @@ This report is only a draft where I note down my discovery. It is by no mean a c
 SPDUs are defined in subclause 6.3 in *IEEE std 1609.2* and subclause 6.4 in *YD/T 3957*
 
 
-#### HashAlgorithm
+### HashAlgorithm
 
 HashAlgorithm defined in *YD/T 3957* :
 ```
@@ -24,7 +24,7 @@ Information Processing Standard (FIPS) 180-4. In this standard, the phrase “th
 string]” is used to mean “the hash of [that octet string] obtained using SHA-256 as specified in FIPS
 180-4”.
 
-#### HashedData
+### HashedData
 ```
 HashedData::= CHOICE {
   sha256HashedData    OCTET STRING (SIZE(32)),
@@ -35,7 +35,7 @@ HashedData::= CHOICE {
 ```
 Again, multiple hash algorithms are supported. Note that SM3 digest has the same length as SHA256.
 
-#### HeaderInfo
+### HeaderInfo
 ```
 HeaderInfo ::= SEQUENCE{
   psid                  Psid
@@ -66,7 +66,7 @@ pduFunctionalType     PduFunctionalType OPTIONAL
 
 - `—pduFunctionalType`, if present, indicate that SPDU will be used by processes outside the application process. This is [defined bellow](#pdufunctionaltype)
 
-#### SymmetricEncryptionKey
+### SymmetricEncryptionKey
 It is defined as follow in *YD/T 3957*
 ```
 SymmetricEncryptionKey ::= CHOICE {
@@ -77,7 +77,7 @@ SymmetricEncryptionKey ::= CHOICE {
 ```
 In addition to aes128 specified in *IEEE std 1609.2*, SM4 in CCM mode is also supported.
 
-#### SymmAlgorithm
+### SymmAlgorithm
 ```
 SymmAlgorithm ::= ENUMERATED {
   aes128Ccm,
@@ -87,7 +87,7 @@ SymmAlgorithm ::= ENUMERATED {
 ```
 SM4 is added.
 
-#### BasePublicEncryptionKey
+### BasePublicEncryptionKey
 ```
 BasePublicEncryptionKey ::= CHOICE {
   eciesNistP256           EccP256CurvePoint,
@@ -98,9 +98,27 @@ BasePublicEncryptionKey ::= CHOICE {
 ```
 Sm2 is also used here. Which is another elliptic curve cryptography algorithm.
 
-#### PduFunctionalType
+### PduFunctionalType
 ```
 PduFunctionalType ::= INTEGER (0..255)
 tlsHandshake          PduFunctionalType ::= 1
 iso21177ExtendedAuth  PduFunctionalType ::= 2
 ```
+This data structure identifies the functional entity intended to use the SPDU. For SPDUs that contain a PduFunctionalType, it shall conform to the the security attribute corresponding to the PduFunctionalType value, not the applied SPDU security attribute of the AID. The data structure contains :
+
+- `tlsHandshake` indicates that the signed SPDU cannot be used directly as an application PDU, but is used to provide information about the holder's access to the Transport Layer Security (TLS) handshake process, which is used to protect communication with the application process;
+
+- `iso21177ExtendedAuth` indicates that signed SPDU cannot be used directly as an application PDU, but is used to provide additional information about holder's access to the ISO 21177 security subsystem.
+
+
+### SingerIdentifier
+```
+SignerIdentifier ::= CHOICE {
+  digest          HashedId8,
+  certificate     SequenceOfCertificate,
+  self            NULL,
+  ...,
+  x509            OCTET STRING
+}
+```
+x509 certificate is added here in addition to those specified in *IEEE std 1609.2* (The first three here). But no explanation is given in *YD/T 3957*
