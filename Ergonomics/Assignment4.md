@@ -38,5 +38,6 @@ One of the possible solution is to print a road map on the boarding pass with cl
 <figcaption align = "center"><b>An example of in-game road map</b></figcaption>
 </figure>
 
+### Benefit
 In case of the boarding pass. Road map will show you each step of your boarding process and by complete them you "unlock an achievement".
 This helps provide a clear instruction on "what to do next" which reduces passenger waiting time and anxiety.
