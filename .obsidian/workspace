@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Micro&Macro_Eco/Micro&Macro_Eco_note.md",
+            "file": "Mobile_comm/midterm_prep.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Micro&Macro_Eco/Micro&Macro_Eco_note.md",
+                "file": "Mobile_comm/midterm_prep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,11 +88,15 @@
   },
   "active": "a18cb1da13ffa530",
   "lastOpenFiles": [
-    "Micro&Macro_Eco/Micro&Macro_Eco_note.md",
+    "Mobile_comm/midterm_prep.md",
+    "V2X/V2X_standard_report.md",
+    "V2X/report.pdf",
     "Management&business_eco/Management_&_Business_economics.md",
-    "Informatics2/Informatics2_note.md",
-    "README.md",
+    "Micro&Macro_Eco/Micro&Macro_Eco_note.md",
     "V2X/report1.md",
-    "Informatics2/lab2.md"
+    "V2X/report1.pdf",
+    "Ergonomics/Assignment4.pdf",
+    "Ergonomics/Assignment4.md",
+    "Informatics2/Informatics2_note.md"
   ]
 }
