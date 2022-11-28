@@ -1,0 +1,1142 @@
+EESchema Schematic File Version 5
+EELAYER 36 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 2700 3250
+Connection ~ 3200 3250
+Connection ~ 3500 2000
+Connection ~ 3500 2600
+Connection ~ 3500 3250
+Connection ~ 3900 2600
+Connection ~ 3900 3050
+Connection ~ 3950 4250
+Connection ~ 3950 4550
+Connection ~ 3950 4850
+Connection ~ 4250 3050
+Connection ~ 4400 4250
+Connection ~ 4400 4850
+Connection ~ 4800 3050
+Connection ~ 5100 2800
+Connection ~ 5100 3300
+Connection ~ 5650 2800
+Connection ~ 6300 2800
+Connection ~ 6600 2800
+Connection ~ 6950 2600
+Connection ~ 7600 2400
+Connection ~ 7800 3350
+Connection ~ 8000 2400
+Connection ~ 8300 2200
+Connection ~ 8700 2200
+Connection ~ 9300 2200
+Connection ~ 9300 2300
+Connection ~ 9300 2400
+Wire Wire Line
+	2700 3250 2700 3400
+Wire Wire Line
+	3200 3250 2700 3250
+Wire Wire Line
+	3200 3400 3200 3250
+Wire Wire Line
+	3400 2600 3500 2600
+Wire Wire Line
+	3500 2000 3400 2000
+Wire Wire Line
+	3500 2600 3900 2600
+Wire Wire Line
+	3500 2800 3500 2600
+Wire Wire Line
+	3500 3100 3500 3250
+Wire Wire Line
+	3500 3250 3600 3250
+Wire Wire Line
+	3550 4550 3550 4850
+Wire Wire Line
+	3600 2000 3500 2000
+Wire Wire Line
+	3800 4250 3950 4250
+Wire Wire Line
+	3900 2500 3900 2600
+Wire Wire Line
+	3900 2600 4250 2600
+Wire Wire Line
+	3900 3050 3900 2900
+Wire Wire Line
+	3950 4250 4400 4250
+Wire Wire Line
+	3950 4550 3550 4550
+Wire Wire Line
+	3950 4850 4400 4850
+Wire Wire Line
+	4100 4550 3950 4550
+Wire Wire Line
+	4250 2900 4250 3050
+Wire Wire Line
+	4250 3050 3900 3050
+Wire Wire Line
+	4400 4250 4400 4350
+Wire Wire Line
+	4400 4850 4400 4750
+Wire Wire Line
+	4550 3050 4800 3050
+Wire Wire Line
+	4800 2750 4800 3050
+Wire Wire Line
+	4900 3300 5100 3300
+Wire Wire Line
+	4900 4550 4900 3300
+Wire Wire Line
+	4900 4850 4400 4850
+Wire Wire Line
+	5100 2800 5100 2750
+Wire Wire Line
+	5100 2850 5100 2800
+Wire Wire Line
+	5100 3300 5100 3250
+Wire Wire Line
+	5100 3350 5100 3300
+Wire Wire Line
+	5350 2800 5100 2800
+Wire Wire Line
+	5650 3000 5650 2800
+Wire Wire Line
+	5800 2800 5650 2800
+Wire Wire Line
+	6100 2800 6300 2800
+Wire Wire Line
+	6300 2800 6300 3000
+Wire Wire Line
+	6600 2800 6300 2800
+Wire Wire Line
+	6600 3350 6600 2800
+Wire Wire Line
+	6650 2800 6600 2800
+Wire Wire Line
+	6950 2050 6950 2600
+Wire Wire Line
+	6950 2600 7300 2600
+Wire Wire Line
+	7200 3350 6600 3350
+Wire Wire Line
+	7600 2050 7600 2400
+Wire Wire Line
+	7800 3350 7500 3350
+Wire Wire Line
+	7800 3350 7850 3350
+Wire Wire Line
+	8000 2400 7600 2400
+Wire Wire Line
+	8150 3350 8700 3350
+Wire Wire Line
+	8300 2050 8300 2200
+Wire Wire Line
+	8700 2200 8300 2200
+Wire Wire Line
+	8700 3350 8700 2200
+Wire Wire Line
+	8850 2200 8700 2200
+Wire Wire Line
+	9300 2200 9150 2200
+Wire Wire Line
+	9300 2300 9300 2200
+Wire Wire Line
+	9300 2400 9300 2300
+Wire Wire Line
+	9300 2500 9300 2400
+Text Notes 2600 3650 1    50   ~ 0
+coil and wire antenna\n
+Text Notes 2800 2200 0    50   ~ 0
+sensitivity
+Text Notes 3650 3750 0    50   ~ 0
+RF Pre Amp\n
+Text Notes 3700 5450 0    50   ~ 0
+Local Oscillator\n
+Text Notes 3950 2950 0    50   ~ 0
+RF BPF\n
+Text Notes 4700 1900 0    50   ~ 0
+2.4...9V DC battery\n
+Text Notes 4750 3250 0    50   ~ 0
+mixer\n
+Text Notes 5350 2950 0    50   ~ 0
+AF LPF\n
+Text Notes 7550 3100 0    50   ~ 0
+Audio Amplifier\n
+Text Notes 9150 2900 0    50   ~ 0
+audio out\n
+$Comp
+L 80mrx-rescue:+6V-power #PWR0107
+U 1 1 61262841
+P 3250 1850
+F 0 "#PWR0107" H 3250 1700 50  0001 C CNN
+F 1 "+6V" H 3265 2023 50  0000 C CNN
+F 2 "" H 3250 1850 50  0001 C CNN
+F 3 "" H 3250 1850 50  0001 C CNN
+	1    3250 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:+6V-power #PWR0106
+U 1 1 61262213
+P 3900 1800
+F 0 "#PWR0106" H 3900 1650 50  0001 C CNN
+F 1 "+6V" H 3915 1973 50  0000 C CNN
+F 2 "" H 3900 1800 50  0001 C CNN
+F 3 "" H 3900 1800 50  0001 C CNN
+	1    3900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:+6V-power #PWR0116
+U 1 1 61259254
+P 4400 4250
+F 0 "#PWR0116" H 4400 4100 50  0001 C CNN
+F 1 "+6V" H 4415 4423 50  0000 C CNN
+F 2 "" H 4400 4250 50  0001 C CNN
+F 3 "" H 4400 4250 50  0001 C CNN
+	1    4400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:+6V-power #PWR0131
+U 1 1 61280846
+P 4600 1500
+F 0 "#PWR0131" H 4600 1350 50  0001 C CNN
+F 1 "+6V" H 4615 1673 50  0000 C CNN
+F 2 "" H 4600 1500 50  0001 C CNN
+F 3 "" H 4600 1500 50  0001 C CNN
+	1    4600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:+6V-power #PWR0110
+U 1 1 61265BB2
+P 4800 2450
+F 0 "#PWR0110" H 4800 2300 50  0001 C CNN
+F 1 "+6V" H 4815 2623 50  0000 C CNN
+F 2 "" H 4800 2450 50  0001 C CNN
+F 3 "" H 4800 2450 50  0001 C CNN
+	1    4800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:+6V-power #PWR0109
+U 1 1 6126565D
+P 5100 2450
+F 0 "#PWR0109" H 5100 2300 50  0001 C CNN
+F 1 "+6V" H 5115 2623 50  0000 C CNN
+F 2 "" H 5100 2450 50  0001 C CNN
+F 3 "" H 5100 2450 50  0001 C CNN
+	1    5100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:+6V-power #PWR0132
+U 1 1 6128C313
+P 5500 1500
+F 0 "#PWR0132" H 5500 1350 50  0001 C CNN
+F 1 "+6V" H 5515 1673 50  0000 C CNN
+F 2 "" H 5500 1500 50  0001 C CNN
+F 3 "" H 5500 1500 50  0001 C CNN
+	1    5500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:+6V-power #PWR0128
+U 1 1 6127C4AA
+P 6000 1500
+F 0 "#PWR0128" H 6000 1350 50  0001 C CNN
+F 1 "+6V" H 6015 1673 50  0000 C CNN
+F 2 "" H 6000 1500 50  0001 C CNN
+F 3 "" H 6000 1500 50  0001 C CNN
+	1    6000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:+6V-power #PWR0123
+U 1 1 6126D16B
+P 6950 1750
+F 0 "#PWR0123" H 6950 1600 50  0001 C CNN
+F 1 "+6V" H 6965 1923 50  0000 C CNN
+F 2 "" H 6950 1750 50  0001 C CNN
+F 3 "" H 6950 1750 50  0001 C CNN
+	1    6950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:+6V-power #PWR0124
+U 1 1 6126D87A
+P 7600 1750
+F 0 "#PWR0124" H 7600 1600 50  0001 C CNN
+F 1 "+6V" H 7615 1923 50  0000 C CNN
+F 2 "" H 7600 1750 50  0001 C CNN
+F 3 "" H 7600 1750 50  0001 C CNN
+	1    7600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:+6V-power #PWR0125
+U 1 1 6126DC9A
+P 8300 1750
+F 0 "#PWR0125" H 8300 1600 50  0001 C CNN
+F 1 "+6V" H 8315 1923 50  0000 C CNN
+F 2 "" H 8300 1750 50  0001 C CNN
+F 3 "" H 8300 1750 50  0001 C CNN
+	1    8300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0101
+U 1 1 61260C63
+P 2700 3700
+F 0 "#PWR0101" H 2700 3450 50  0001 C CNN
+F 1 "GND" H 2705 3527 50  0000 C CNN
+F 2 "" H 2700 3700 50  0001 C CNN
+F 3 "" H 2700 3700 50  0001 C CNN
+	1    2700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0113
+U 1 1 612519A4
+P 3100 2600
+F 0 "#PWR0113" H 3100 2350 50  0001 C CNN
+F 1 "GND" H 3105 2427 50  0000 C CNN
+F 2 "" H 3100 2600 50  0001 C CNN
+F 3 "" H 3100 2600 50  0001 C CNN
+	1    3100 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0102
+U 1 1 6126116A
+P 3200 3700
+F 0 "#PWR0102" H 3200 3450 50  0001 C CNN
+F 1 "GND" H 3205 3527 50  0000 C CNN
+F 2 "" H 3200 3700 50  0001 C CNN
+F 3 "" H 3200 3700 50  0001 C CNN
+	1    3200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0105
+U 1 1 61261C1F
+P 3250 2150
+F 0 "#PWR0105" H 3250 1900 50  0001 C CNN
+F 1 "GND" H 3255 1977 50  0000 C CNN
+F 2 "" H 3250 2150 50  0001 C CNN
+F 3 "" H 3250 2150 50  0001 C CNN
+	1    3250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0104
+U 1 1 612617E5
+P 3500 2300
+F 0 "#PWR0104" H 3500 2050 50  0001 C CNN
+F 1 "GND" H 3505 2127 50  0000 C CNN
+F 2 "" H 3500 2300 50  0001 C CNN
+F 3 "" H 3500 2300 50  0001 C CNN
+	1    3500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0117
+U 1 1 6125A310
+P 3500 4250
+F 0 "#PWR0117" H 3500 4000 50  0001 C CNN
+F 1 "GND" H 3505 4077 50  0000 C CNN
+F 2 "" H 3500 4250 50  0001 C CNN
+F 3 "" H 3500 4250 50  0001 C CNN
+	1    3500 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0118
+U 1 1 6125BD6C
+P 3550 5150
+F 0 "#PWR0118" H 3550 4900 50  0001 C CNN
+F 1 "GND" H 3555 4977 50  0000 C CNN
+F 2 "" H 3550 5150 50  0001 C CNN
+F 3 "" H 3550 5150 50  0001 C CNN
+	1    3550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0103
+U 1 1 612613FB
+P 3900 3450
+F 0 "#PWR0103" H 3900 3200 50  0001 C CNN
+F 1 "GND" H 3905 3277 50  0000 C CNN
+F 2 "" H 3900 3450 50  0001 C CNN
+F 3 "" H 3900 3450 50  0001 C CNN
+	1    3900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0115
+U 1 1 61257A21
+P 3950 5150
+F 0 "#PWR0115" H 3950 4900 50  0001 C CNN
+F 1 "GND" H 3955 4977 50  0000 C CNN
+F 2 "" H 3950 5150 50  0001 C CNN
+F 3 "" H 3950 5150 50  0001 C CNN
+	1    3950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0114
+U 1 1 612575FC
+P 4400 5150
+F 0 "#PWR0114" H 4400 4900 50  0001 C CNN
+F 1 "GND" H 4405 4977 50  0000 C CNN
+F 2 "" H 4400 5150 50  0001 C CNN
+F 3 "" H 4400 5150 50  0001 C CNN
+	1    4400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0130
+U 1 1 6128051B
+P 4600 1900
+F 0 "#PWR0130" H 4600 1650 50  0001 C CNN
+F 1 "GND" H 4605 1727 50  0000 C CNN
+F 2 "" H 4600 1900 50  0001 C CNN
+F 3 "" H 4600 1900 50  0001 C CNN
+	1    4600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0108
+U 1 1 61265272
+P 5100 3650
+F 0 "#PWR0108" H 5100 3400 50  0001 C CNN
+F 1 "GND" H 5105 3477 50  0000 C CNN
+F 2 "" H 5100 3650 50  0001 C CNN
+F 3 "" H 5100 3650 50  0001 C CNN
+	1    5100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0133
+U 1 1 6128C319
+P 5500 1800
+F 0 "#PWR0133" H 5500 1550 50  0001 C CNN
+F 1 "GND" H 5505 1627 50  0000 C CNN
+F 2 "" H 5500 1800 50  0001 C CNN
+F 3 "" H 5500 1800 50  0001 C CNN
+	1    5500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0111
+U 1 1 612666DB
+P 5650 3300
+F 0 "#PWR0111" H 5650 3050 50  0001 C CNN
+F 1 "GND" H 5655 3127 50  0000 C CNN
+F 2 "" H 5650 3300 50  0001 C CNN
+F 3 "" H 5650 3300 50  0001 C CNN
+	1    5650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0129
+U 1 1 6127C907
+P 6000 1800
+F 0 "#PWR0129" H 6000 1550 50  0001 C CNN
+F 1 "GND" H 6005 1627 50  0000 C CNN
+F 2 "" H 6000 1800 50  0001 C CNN
+F 3 "" H 6000 1800 50  0001 C CNN
+	1    6000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0112
+U 1 1 612676A6
+P 6300 3300
+F 0 "#PWR0112" H 6300 3050 50  0001 C CNN
+F 1 "GND" H 6305 3127 50  0000 C CNN
+F 2 "" H 6300 3300 50  0001 C CNN
+F 3 "" H 6300 3300 50  0001 C CNN
+	1    6300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0119
+U 1 1 612688D0
+P 6950 3000
+F 0 "#PWR0119" H 6950 2750 50  0001 C CNN
+F 1 "GND" H 6955 2827 50  0000 C CNN
+F 2 "" H 6950 3000 50  0001 C CNN
+F 3 "" H 6950 3000 50  0001 C CNN
+	1    6950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0120
+U 1 1 61268C29
+P 7600 2800
+F 0 "#PWR0120" H 7600 2550 50  0001 C CNN
+F 1 "GND" H 7605 2627 50  0000 C CNN
+F 2 "" H 7600 2800 50  0001 C CNN
+F 3 "" H 7600 2800 50  0001 C CNN
+	1    7600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0126
+U 1 1 61271C33
+P 7800 3650
+F 0 "#PWR0126" H 7800 3400 50  0001 C CNN
+F 1 "GND" H 7805 3477 50  0000 C CNN
+F 2 "" H 7800 3650 50  0001 C CNN
+F 3 "" H 7800 3650 50  0001 C CNN
+	1    7800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0122
+U 1 1 6126AE5F
+P 8000 2700
+F 0 "#PWR0122" H 8000 2450 50  0001 C CNN
+F 1 "GND" H 8005 2527 50  0000 C CNN
+F 2 "" H 8000 2700 50  0001 C CNN
+F 3 "" H 8000 2700 50  0001 C CNN
+	1    8000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0121
+U 1 1 61269160
+P 8300 2600
+F 0 "#PWR0121" H 8300 2350 50  0001 C CNN
+F 1 "GND" H 8305 2427 50  0000 C CNN
+F 2 "" H 8300 2600 50  0001 C CNN
+F 3 "" H 8300 2600 50  0001 C CNN
+	1    8300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:GND-power #PWR0127
+U 1 1 6127B369
+P 9300 2600
+F 0 "#PWR0127" H 9300 2350 50  0001 C CNN
+F 1 "GND" H 9305 2427 50  0000 C CNN
+F 2 "" H 9300 2600 50  0001 C CNN
+F 3 "" H 9300 2600 50  0001 C CNN
+	1    9300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:L-Device L1
+U 1 1 61250F01
+P 2700 3550
+AR Path="/61250F01" Ref="L1"  Part="1" 
+AR Path="/61250F01" Ref="L1"  Part="1" 
+F 0 "L1" H 2752 3596 50  0000 L CNN
+F 1 "210cm9me" V 2650 3350 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2700 3550 50  0001 C CNN
+F 3 "~" H 2700 3550 50  0001 C CNN
+	1    2700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:L-Device L2
+U 1 1 612549C6
+P 3900 2750
+AR Path="/612549C6" Ref="L2"  Part="1" 
+AR Path="/612549C6" Ref="L2"  Part="1" 
+F 0 "L2" H 3952 2796 50  0000 L CNN
+F 1 "10u" H 3952 2705 50  0000 L CNN
+F 2 "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder" H 3900 2750 50  0001 C CNN
+F 3 "~" H 3900 2750 50  0001 C CNN
+	1    3900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R1
+U 1 1 6127D657
+P 2700 3100
+AR Path="/6127D657" Ref="R1"  Part="1" 
+AR Path="/6127D657" Ref="R1"  Part="1" 
+F 0 "R1" H 2770 3146 50  0000 L CNN
+F 1 "1k" H 2770 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2630 3100 50  0001 C CNN
+F 3 "~" H 2700 3100 50  0001 C CNN
+	1    2700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R2
+U 1 1 612531A5
+P 3500 2950
+AR Path="/612531A5" Ref="R2"  Part="1" 
+AR Path="/612531A5" Ref="R2"  Part="1" 
+F 0 "R2" H 3570 2996 50  0000 L CNN
+F 1 "220k" H 3570 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3430 2950 50  0001 C CNN
+F 3 "~" H 3500 2950 50  0001 C CNN
+	1    3500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R3
+U 1 1 61255A8B
+P 3900 2350
+AR Path="/61255A8B" Ref="R3"  Part="1" 
+AR Path="/61255A8B" Ref="R3"  Part="1" 
+F 0 "R3" H 3970 2396 50  0000 L CNN
+F 1 "1k" H 3970 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3830 2350 50  0001 C CNN
+F 3 "~" H 3900 2350 50  0001 C CNN
+	1    3900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R4
+U 1 1 61257CF6
+P 3950 4400
+AR Path="/61257CF6" Ref="R4"  Part="1" 
+AR Path="/61257CF6" Ref="R4"  Part="1" 
+F 0 "R4" H 4020 4446 50  0000 L CNN
+F 1 "220k" H 4020 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3880 4400 50  0001 C CNN
+F 3 "~" H 3950 4400 50  0001 C CNN
+	1    3950 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R5
+U 1 1 61257148
+P 4400 5000
+AR Path="/61257148" Ref="R5"  Part="1" 
+AR Path="/61257148" Ref="R5"  Part="1" 
+F 0 "R5" H 4470 5046 50  0000 L CNN
+F 1 "1k" H 4470 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4330 5000 50  0001 C CNN
+F 3 "~" H 4400 5000 50  0001 C CNN
+	1    4400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R6
+U 1 1 612642E2
+P 4800 2600
+AR Path="/612642E2" Ref="R6"  Part="1" 
+AR Path="/612642E2" Ref="R6"  Part="1" 
+F 0 "R6" H 4870 2646 50  0000 L CNN
+F 1 "220k" H 4870 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4730 2600 50  0001 C CNN
+F 3 "~" H 4800 2600 50  0001 C CNN
+	1    4800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R7
+U 1 1 61264A69
+P 5100 2600
+AR Path="/61264A69" Ref="R7"  Part="1" 
+AR Path="/61264A69" Ref="R7"  Part="1" 
+F 0 "R7" H 5170 2646 50  0000 L CNN
+F 1 "2,7k" H 5170 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5030 2600 50  0001 C CNN
+F 3 "~" H 5100 2600 50  0001 C CNN
+	1    5100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R8
+U 1 1 61264D13
+P 5100 3500
+AR Path="/61264D13" Ref="R8"  Part="1" 
+AR Path="/61264D13" Ref="R8"  Part="1" 
+F 0 "R8" H 5170 3546 50  0000 L CNN
+F 1 "2,7k" H 5170 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5030 3500 50  0001 C CNN
+F 3 "~" H 5100 3500 50  0001 C CNN
+	1    5100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R9
+U 1 1 61265EC5
+P 5500 2800
+AR Path="/61265EC5" Ref="R9"  Part="1" 
+AR Path="/61265EC5" Ref="R9"  Part="1" 
+F 0 "R9" V 5293 2800 50  0000 C CNN
+F 1 "2,7k" V 5384 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5430 2800 50  0001 C CNN
+F 3 "~" H 5500 2800 50  0001 C CNN
+	1    5500 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R10
+U 1 1 6126CBDF
+P 6950 1900
+AR Path="/6126CBDF" Ref="R10"  Part="1" 
+AR Path="/6126CBDF" Ref="R10"  Part="1" 
+F 0 "R10" V 6743 1900 50  0000 C CNN
+F 1 "100k" V 6834 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6880 1900 50  0001 C CNN
+F 3 "~" H 6950 1900 50  0001 C CNN
+	1    6950 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R11
+U 1 1 61270873
+P 7350 3350
+AR Path="/61270873" Ref="R11"  Part="1" 
+AR Path="/61270873" Ref="R11"  Part="1" 
+F 0 "R11" V 7143 3350 50  0000 C CNN
+F 1 "1M" V 7234 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7280 3350 50  0001 C CNN
+F 3 "~" H 7350 3350 50  0001 C CNN
+	1    7350 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R12
+U 1 1 6126B07B
+P 7600 1900
+AR Path="/6126B07B" Ref="R12"  Part="1" 
+AR Path="/6126B07B" Ref="R12"  Part="1" 
+F 0 "R12" V 7393 1900 50  0000 C CNN
+F 1 "10k" V 7484 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7530 1900 50  0001 C CNN
+F 3 "~" H 7600 1900 50  0001 C CNN
+	1    7600 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R13
+U 1 1 6127101C
+P 8000 3350
+AR Path="/6127101C" Ref="R13"  Part="1" 
+AR Path="/6127101C" Ref="R13"  Part="1" 
+F 0 "R13" V 7793 3350 50  0000 C CNN
+F 1 "1M" V 7884 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7930 3350 50  0001 C CNN
+F 3 "~" H 8000 3350 50  0001 C CNN
+	1    8000 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 80mrx-rescue:R-Device R14
+U 1 1 61269605
+P 8300 1900
+AR Path="/61269605" Ref="R14"  Part="1" 
+AR Path="/61269605" Ref="R14"  Part="1" 
+F 0 "R14" V 8093 1900 50  0000 C CNN
+F 1 "1k" V 8184 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8230 1900 50  0001 C CNN
+F 3 "~" H 8300 1900 50  0001 C CNN
+	1    8300 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 80mrx-rescue:Antenna-Device AE1
+U 1 1 6127E32F
+P 2700 2750
+AR Path="/6127E32F" Ref="AE1"  Part="1" 
+AR Path="/6127E32F" Ref="AE1"  Part="1" 
+F 0 "AE1" H 2780 2739 50  0000 L CNN
+F 1 "Antenna" H 2780 2648 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2700 2750 50  0001 C CNN
+F 3 "~" H 2700 2750 50  0001 C CNN
+	1    2700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C1
+U 1 1 61251A82
+P 3200 3550
+AR Path="/61251A82" Ref="C1"  Part="1" 
+AR Path="/61251A82" Ref="C1"  Part="1" 
+F 0 "C1" H 3315 3596 50  0000 L CNN
+F 1 "dnm" H 3315 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3238 3400 50  0001 C CNN
+F 3 "~" H 3200 3550 50  0001 C CNN
+	1    3200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C2
+U 1 1 61251237
+P 3250 2600
+AR Path="/61251237" Ref="C2"  Part="1" 
+AR Path="/61251237" Ref="C2"  Part="1" 
+F 0 "C2" H 3365 2646 50  0000 L CNN
+F 1 "100n" H 3365 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3288 2450 50  0001 C CNN
+F 3 "~" H 3250 2600 50  0001 C CNN
+	1    3250 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C3
+U 1 1 612527D3
+P 3350 3250
+AR Path="/612527D3" Ref="C3"  Part="1" 
+AR Path="/612527D3" Ref="C3"  Part="1" 
+F 0 "C3" V 3098 3250 50  0000 C CNN
+F 1 "47p" V 3189 3250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3388 3100 50  0001 C CNN
+F 3 "~" H 3350 3250 50  0001 C CNN
+	1    3350 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C4
+U 1 1 6125756E
+P 3500 2150
+AR Path="/6125756E" Ref="C4"  Part="1" 
+AR Path="/6125756E" Ref="C4"  Part="1" 
+F 0 "C4" H 3615 2196 50  0000 L CNN
+F 1 "100n" H 3615 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3538 2000 50  0001 C CNN
+F 3 "~" H 3500 2150 50  0001 C CNN
+	1    3500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C5
+U 1 1 61259CEB
+P 3650 4250
+AR Path="/61259CEB" Ref="C5"  Part="1" 
+AR Path="/61259CEB" Ref="C5"  Part="1" 
+F 0 "C5" H 3765 4296 50  0000 L CNN
+F 1 "100n" H 3765 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3688 4100 50  0001 C CNN
+F 3 "~" H 3650 4250 50  0001 C CNN
+	1    3650 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C6
+U 1 1 61255B94
+P 3950 4700
+AR Path="/61255B94" Ref="C6"  Part="1" 
+AR Path="/61255B94" Ref="C6"  Part="1" 
+F 0 "C6" V 4050 4550 50  0000 C CNN
+F 1 "100p" V 3800 4700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3988 4550 50  0001 C CNN
+F 3 "~" H 3950 4700 50  0001 C CNN
+	1    3950 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C7
+U 1 1 612568F3
+P 3950 5000
+AR Path="/612568F3" Ref="C7"  Part="1" 
+AR Path="/612568F3" Ref="C7"  Part="1" 
+F 0 "C7" V 4050 4850 50  0000 C CNN
+F 1 "100p" V 3800 5000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3988 4850 50  0001 C CNN
+F 3 "~" H 3950 5000 50  0001 C CNN
+	1    3950 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C8
+U 1 1 61255363
+P 4250 2750
+AR Path="/61255363" Ref="C8"  Part="1" 
+AR Path="/61255363" Ref="C8"  Part="1" 
+F 0 "C8" H 4365 2796 50  0000 L CNN
+F 1 "180p" H 4350 2900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4288 2600 50  0001 C CNN
+F 3 "~" H 4250 2750 50  0001 C CNN
+	1    4250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C9
+U 1 1 61262EF4
+P 4400 3050
+AR Path="/61262EF4" Ref="C9"  Part="1" 
+AR Path="/61262EF4" Ref="C9"  Part="1" 
+F 0 "C9" V 4500 2900 50  0000 C CNN
+F 1 "100p" V 4250 3050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4438 2900 50  0001 C CNN
+F 3 "~" H 4400 3050 50  0001 C CNN
+	1    4400 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C10
+U 1 1 6125FF7B
+P 4900 4700
+AR Path="/6125FF7B" Ref="C10"  Part="1" 
+AR Path="/6125FF7B" Ref="C10"  Part="1" 
+F 0 "C10" V 5000 4550 50  0000 C CNN
+F 1 "47p" V 4750 4700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4938 4550 50  0001 C CNN
+F 3 "~" H 4900 4700 50  0001 C CNN
+	1    4900 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C11
+U 1 1 6128CDA3
+P 5500 1650
+AR Path="/6128CDA3" Ref="C11"  Part="1" 
+AR Path="/6128CDA3" Ref="C11"  Part="1" 
+F 0 "C11" H 5615 1696 50  0000 L CNN
+F 1 "180p" H 5600 1800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5538 1500 50  0001 C CNN
+F 3 "~" H 5500 1650 50  0001 C CNN
+	1    5500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C12
+U 1 1 612661AB
+P 5650 3150
+AR Path="/612661AB" Ref="C12"  Part="1" 
+AR Path="/612661AB" Ref="C12"  Part="1" 
+F 0 "C12" H 5700 3050 50  0000 L CNN
+F 1 "10n" H 5700 3250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5688 3000 50  0001 C CNN
+F 3 "~" H 5650 3150 50  0001 C CNN
+	1    5650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C13
+U 1 1 61266A5E
+P 5950 2800
+AR Path="/61266A5E" Ref="C13"  Part="1" 
+AR Path="/61266A5E" Ref="C13"  Part="1" 
+F 0 "C13" H 5750 2850 50  0000 L CNN
+F 1 "100n" H 5650 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5988 2650 50  0001 C CNN
+F 3 "~" H 5950 2800 50  0001 C CNN
+	1    5950 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L 80mrx-rescue:CP-Device C14
+U 1 1 6127BA71
+P 6000 1650
+AR Path="/6127BA71" Ref="C14"  Part="1" 
+AR Path="/6127BA71" Ref="C14"  Part="1" 
+F 0 "C14" H 6118 1696 50  0000 L CNN
+F 1 "47u" H 6118 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6038 1500 50  0001 C CNN
+F 3 "~" H 6000 1650 50  0001 C CNN
+	1    6000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C15
+U 1 1 61267220
+P 6300 3150
+AR Path="/61267220" Ref="C15"  Part="1" 
+AR Path="/61267220" Ref="C15"  Part="1" 
+F 0 "C15" H 6150 3250 50  0000 L CNN
+F 1 "150p" H 6050 3050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6338 3000 50  0001 C CNN
+F 3 "~" H 6300 3150 50  0001 C CNN
+	1    6300 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C16
+U 1 1 612714D2
+P 7800 3500
+AR Path="/612714D2" Ref="C16"  Part="1" 
+AR Path="/612714D2" Ref="C16"  Part="1" 
+F 0 "C16" H 7915 3546 50  0000 L CNN
+F 1 "100n" H 7950 3450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7838 3350 50  0001 C CNN
+F 3 "~" H 7800 3500 50  0001 C CNN
+	1    7800 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L 80mrx-rescue:C-Device C17
+U 1 1 6126A718
+P 8000 2550
+AR Path="/6126A718" Ref="C17"  Part="1" 
+AR Path="/6126A718" Ref="C17"  Part="1" 
+F 0 "C17" H 8115 2596 50  0000 L CNN
+F 1 "1n" H 8150 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8038 2400 50  0001 C CNN
+F 3 "~" H 8000 2550 50  0001 C CNN
+	1    8000 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L 80mrx-rescue:CP-Device C18
+U 1 1 61275C09
+P 9000 2200
+AR Path="/61275C09" Ref="C18"  Part="1" 
+AR Path="/61275C09" Ref="C18"  Part="1" 
+F 0 "C18" V 9255 2200 50  0000 C CNN
+F 1 "47u" V 9164 2200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 9038 2050 50  0001 C CNN
+F 3 "~" H 9000 2200 50  0001 C CNN
+	1    9000 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 80mrx-rescue:R_POT-Device RV1
+U 1 1 61250A12
+P 3250 2000
+AR Path="/61250A12" Ref="RV1"  Part="1" 
+AR Path="/61250A12" Ref="RV1"  Part="1" 
+F 0 "RV1" H 3181 2046 50  0000 R CNN
+F 1 "100k" H 3181 1955 50  0000 R CNN
+F 2 "jack:poti" H 3250 2000 50  0001 C CNN
+F 3 "~" H 3250 2000 50  0001 C CNN
+	1    3250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:Crystal-Device Y1
+U 1 1 6125AD04
+P 3550 5000
+AR Path="/6125AD04" Ref="Y1"  Part="1" 
+AR Path="/6125AD04" Ref="Y1"  Part="1" 
+F 0 "Y1" H 3550 5268 50  0000 C CNN
+F 1 "3579kHz" H 3550 5177 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD_HandSoldering" H 3550 5000 50  0001 C CNN
+F 3 "~" H 3550 5000 50  0001 C CNN
+	1    3550 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L 80mrx-rescue:Battery-Device BT1
+U 1 1 61285D11
+P 4600 1700
+AR Path="/61285D11" Ref="BT1"  Part="1" 
+AR Path="/61285D11" Ref="BT1"  Part="1" 
+F 0 "BT1" H 4708 1746 50  0000 L CNN
+F 1 "6VDC" H 4708 1655 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 4600 1760 50  0001 C CNN
+F 3 "~" V 4600 1760 50  0001 C CNN
+	1    4600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:Conn_01x05_Female-Connector J1
+U 1 1 61279385
+P 9500 2400
+AR Path="/61279385" Ref="J1"  Part="1" 
+AR Path="/61279385" Ref="J1"  Part="1" 
+F 0 "J1" H 9528 2426 50  0000 L CNN
+F 1 "jack" H 9528 2335 50  0000 L CNN
+F 2 "jack:jack" H 9500 2400 50  0001 C CNN
+F 3 "~" H 9500 2400 50  0001 C CNN
+	1    9500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:BC847-Transistor_BJT Q1
+U 1 1 6125621C
+P 3800 2000
+AR Path="/6125621C" Ref="Q1"  Part="1" 
+AR Path="/6125621C" Ref="Q1"  Part="1" 
+F 0 "Q1" H 3991 2046 50  0000 L CNN
+F 1 "BC847" H 3991 1955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 1925 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 3800 2000 50  0001 L CNN
+	1    3800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:BC847-Transistor_BJT Q2
+U 1 1 61253971
+P 3800 3250
+AR Path="/61253971" Ref="Q2"  Part="1" 
+AR Path="/61253971" Ref="Q2"  Part="1" 
+F 0 "Q2" H 3991 3296 50  0000 L CNN
+F 1 "BC847" H 3991 3205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 3175 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 3800 3250 50  0001 L CNN
+	1    3800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:BC847-Transistor_BJT Q3
+U 1 1 61255354
+P 4300 4550
+AR Path="/61255354" Ref="Q3"  Part="1" 
+AR Path="/61255354" Ref="Q3"  Part="1" 
+F 0 "Q3" H 4491 4596 50  0000 L CNN
+F 1 "BC847" H 4491 4505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 4475 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 4300 4550 50  0001 L CNN
+	1    4300 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:BC847-Transistor_BJT Q4
+U 1 1 61263A7C
+P 5000 3050
+AR Path="/61263A7C" Ref="Q4"  Part="1" 
+AR Path="/61263A7C" Ref="Q4"  Part="1" 
+F 0 "Q4" H 5191 3096 50  0000 L CNN
+F 1 "BC847" H 5191 3005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 2975 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 5000 3050 50  0001 L CNN
+	1    5000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:BC847-Transistor_BJT Q5
+U 1 1 61266A77
+P 6850 2800
+AR Path="/61266A77" Ref="Q5"  Part="1" 
+AR Path="/61266A77" Ref="Q5"  Part="1" 
+F 0 "Q5" H 7041 2846 50  0000 L CNN
+F 1 "BC847" H 7041 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7050 2725 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 6850 2800 50  0001 L CNN
+	1    6850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:BC847-Transistor_BJT Q6
+U 1 1 61267536
+P 7500 2600
+AR Path="/61267536" Ref="Q6"  Part="1" 
+AR Path="/61267536" Ref="Q6"  Part="1" 
+F 0 "Q6" H 7691 2646 50  0000 L CNN
+F 1 "BC847" H 7691 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7700 2525 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 7500 2600 50  0001 L CNN
+	1    7500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80mrx-rescue:BC847-Transistor_BJT Q7
+U 1 1 61267F42
+P 8200 2400
+AR Path="/61267F42" Ref="Q7"  Part="1" 
+AR Path="/61267F42" Ref="Q7"  Part="1" 
+F 0 "Q7" H 8391 2446 50  0000 L CNN
+F 1 "BC847" H 8391 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8400 2325 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 8200 2400 50  0001 L CNN
+	1    8200 2400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

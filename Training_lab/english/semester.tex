@@ -1,0 +1,100 @@
+\chapter{The 2 halves of the Project Laboratory semester}
+
+The semester is divided into two parts.
+
+\section{The first half}
+
+From the first to the 7 th. week: common circuit realization, measurement and documentation in V1 502.
+
+We will use: soldering stations, soldering irons, tin, cutter, tweezer, electrical components of the circuit, PCB, oscilloscope, probes, digital multimeters.
+
+During the first 7 weeks, there will be at least 6 laboratory presentations / introductions.
+
+\section{The second half}
+
+8-14 week: there are differential tasks under laboratory supervision in different laboratories (as you selected in the 7 th. week): Tab. \ref{tab:lab}.
+
+\begin{table}[hb]
+        \footnotesize
+        \centering
+        \caption{Laboratories and Lab. Leaders}
+        \begin{tabular}{ | l | l |}
+        \hline
+        Name of Lab. & Lab. Leader\\
+        \hline
+ 		Antennas and EMC & Lajos Nagy PhD \\
+ 		DOCS & János Bitó PhD \\
+ 		EMF & József Pavo PhD\\
+ 		Microwave Remote Sensing Lab. & Rudolf Seller PhD\\
+ 		NES & András Reichardt \\
+ 		Space Technology & László Csurgai-Horváth PhD\\
+        \hline
+        \end{tabular}
+        \label{tab:lab}
+\end{table}
+
+\section{15th week}
+
+After the semester, before the exam period, oral session will be held in the same time as ProjLab (friday, 8-12h).
+
+These oral presentations have to be presented by every students based on the second half of the semester (what happened in the Labs, only the work): 5 min presentation, 2 min questions. Only \LaTeX pdf (beamer) allowed with static contents.
+
+\section{Result}
+
+3 \LaTeX compiled pdfs are necessary for the final mark calculation:
+
+\begin{enumerate}
+\item Measurement report of the realized circuit (first half, common work, 5-10 effective pages) - 33 \%.
+\item Report of the second half of the semester, containing the work you had been done (5-10 eff. pages) - 33 \%.
+\item Oral presentaton of the second half of the semester (5 min = 5 effective slides) - 34 \%.
+\end{enumerate}
+
+The effective slides of the oral presentation can be counted without the title slide, the outline, the content, and the acknowledgement.
+
+Do NOT use the string of "Thank you for your kind attention!" as last slide, instead of it, you can show pictures on the last slide, what you have done in the semester. The usage of the mentioned string means minus 1 mark.  
+
+The comparision levels of the overall mark are: 40, 55, 70, 85 \%.
+
+For instance:
+
+\begin{enumerate}
+\item Measurement report: 67 \%,
+\item 2 nd. half report: 89 \%,
+\item Oral presentation: 98 \%.
+\end{enumerate}
+
+The averaged percent is: $ round( \frac{67+89+98}{3} ) = 85 \% $, $ 70 < 85 \leq 85$ means 5 (excellent).
+
+\section{Deadlines}
+
+\begin{enumerate}
+\item last day of the semester (14th week friday), 23:59:59 in e-mail,
+\item wednesday of 15th week (two days before the oral session), 12:00:00 in e-mail,
+\item thursday of 15th week (one day before the oral session), 12:00:00 in e-mail,
+\end{enumerate}
+
+all \LaTeX pdf as attachment to \url{dudas.levente@vik.bme.hu}.
+
+\section{Equations}
+
+If you want to use mathematical formulas, you can use this structure: \textit{equation}.
+
+\begin{equation}
+\centering
+\ F ( \vartheta ) = \sum_{k=0}^{N-1} I_k \cdot e^{-jk \beta d cos \vartheta}
+\label{eq:antsys}
+\end{equation}
+
+and after the formula \cite{diploma}, all variables must be defined as:
+
+\begin{itemize}
+\item where $ F ( \vartheta ) $ is the radiation pattern of the antenna system,
+\item $ N $ is the number of the antenna elements,
+\item $ I_k $ is the relative feeding current or voltages of the k th. of the antenna element,
+\item $ k $ is the index of the antenna element,
+\item $ \beta = \frac{2 \pi}{ \lambda } $ is the wave-number,
+\item $ d $ is the equi-distance of the antenna elements in wavelength,
+\item $ \vartheta $ is the direction of the incoming RF signal.
+\end{itemize}
+
+and of course, you can refenced this equation as: the radiation pattern of the antenna row can be calculated as Eq. \ref{eq:antsys}.
