@@ -1,0 +1,222 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Arsclassica Article
+% LaTeX Template
+% Version 1.1 (1/8/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Lorenzo Pantieri (http://www.lorenzopantieri.net) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+\documentclass[
+11pt, % Main document font size
+a4paper, % Paper type, use 'letterpaper' for US Letter paper
+oneside, % One page layout (no page indentation)
+%twoside, % Two page layout (page indentation for binding and different headers)
+headinclude,footinclude, % Extra spacing for the header and footer
+BCOR5mm, % Binding correction
+]{scrartcl}
+
+\input{structure.tex} % Include the structure.tex file which specified the document structure and layout
+
+\hyphenation{Fortran hy-phen-ation} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND AUTHOR(S)
+%----------------------------------------------------------------------------------------
+
+\title{\normalfont\spacedallcaps{Training Project Laboratory Report}} % The article title
+
+%\subtitle{Subtitle} % Uncomment to display a subtitle
+
+\author{\spacedlowsmallcaps{Qianhao Zhang}} % The article author(s) - author affiliations need to be specified in the AUTHOR AFFILIATIONS block
+
+\date{} % An optional date to appear under the author(s)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	HEADERS
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\sectionmark}[1]{\markright{\spacedlowsmallcaps{#1}}} % The header for all pages (oneside) or for even pages (twoside)
+%\renewcommand{\subsectionmark}[1]{\markright{\thesubsection~#1}} % Uncomment when using the twoside option - this modifies the header on odd pages
+\lehead{\mbox{\llap{\small\thepage\kern1em\color{halfgray} \vline}\color{halfgray}\hspace{0.5em}\rightmark\hfil}} % The header style
+
+\pagestyle{scrheadings} % Enable the headers specified in this block
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS & LISTS OF FIGURES AND TABLES
+%----------------------------------------------------------------------------------------
+
+\maketitle % Print the title/author/date block
+
+\setcounter{tocdepth}{2} % Set the depth of the table of contents to show sections and subsections only
+
+\tableofcontents % Print the table of contents
+
+\listoffigures % Print the list of figures
+
+\listoftables % Print the list of tables
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\section*{Abstract} % This section will not appear in the table of contents due to the star (\section*)
+
+This is a report for training project laboratory in electrical engineering infocommunication BSc course.
+This laboratory consist of two parts, both will be covered by this report.
+The first part is circuit realization and measurements around a radio direction 
+finder receiver.
+The second part is measurements, calculation and software tools realization in Space technology laboratory.
+
+%----------------------------------------------------------------------------------------
+
+\newpage % Start the article content on the second page, remove this if you have a longer abstract that goes onto the second page
+
+ 
+%----------------------------------------------------------------------------------------
+%	METHODS
+%----------------------------------------------------------------------------------------
+
+\section{Part1 - radio direction finder receiver}
+
+From week 1 to 7 I was working on the radio direction finder receiver. Our task is to realize
+the circuit following the schematic. The printed circuit board(PCB) is prepared in advance.
+
+\subsection{Components}
+\paragraph{surface mounted components}
+All resistors, capacitors, inductors and transistor are packaged using surface mount technology(SMT).
+Which makes them tricky to hand solder on the board. When to much soldering is applied
+a short circuit could happen between pads underness components. A multimeter is very useful
+for troubleshooting.
+
+\paragraph{through hold components}
+Audio jack, potentiometer and crystal oscillator are through hold components which provided
+a firm connection to the PCB.
+
+
+
+%------------------------------------------------
+
+\subsection{Measurements}
+The task is to measure the following parameters of the realized circuit and make test and measurement report based on the measurement results.
+
+\begin{enumerate}
+\item Bias DC voltages to the reference GND point on all pins of all semiconductors.
+\item Voltage curve in time of the local oscillator output (emitter): peak-to-peak voltage and frequency.
+\item Receiver audio (time domain) output signal on the AF output connector: 
+variable resistor low, middle, high position: 
+peak-to-peak voltage, frequency, curve. During this measurement, 
+a single test transmitter will be run near to the receiver.
+\end{enumerate}
+
+\subsubsection{Bias DC voltage of transistors}
+DC voltage is measured reference to ground. And potentiometer is set to
+a low position during measurements.
+
+
+\begin{table}[h]\centering
+    \begin{tabular}{|l|l|}
+        \cline{1-2}
+        Transistor & Voltage \\
+        \cline{1-2}
+        Q1 & 807mV \\
+        Q2 & 72.4mV \\
+        Q3 & 2.79V \\
+        Q4 & 1.94V \\
+        Q5 & 96.5mV \\
+        Q6 & 97.2mV \\
+        Q7 & 96.9mV \\
+        \cline{1-2}
+    \end{tabular}
+    \caption{Transistor voltage measurement}
+\end{table}
+
+\newpage
+
+\subsubsection{Voltage curve in time domain of the local oscillator output}
+In this measurement 10x probe gain is used. I used the quick measure function
+on the oscilloscope.
+
+\begin{figure}[h!]
+    \includegraphics[width=\linewidth]{Figures/BUCK06.PNG}
+    \caption{local oscillator output}
+    \label{fig:local oscillator output}
+\end{figure}
+
+
+\newpage
+\subsubsection{Receiver audio (time domain) output signal}
+
+\begin{figure}[h!]
+    \centering
+    \subfloat[Low]{\includegraphics[width=0.4\linewidth]{Figures/BUCK08.PNG}} \quad
+    \subfloat[Mid]{\includegraphics[width=0.4\linewidth]{Figures/BUCK09.PNG}} \\
+    \subfloat[High]{\includegraphics[width=0.4\linewidth]{Figures/BUCK10.PNG}}
+ 
+    \caption{Receiver audio output signal in time domain}
+    \label{fig:Receiver audio output}
+  \end{figure}
+
+%----------------------------------------------------------------------------------------
+%	Part2 - 58Ghz attenuation
+%----------------------------------------------------------------------------------------
+\newpage
+
+\section{Part2 - 58Ghz attenuation}
+From 8 to 14 week I worked for Space technology laboratory supervised by Dr. László Csurgai-Horváth.
+Our topic is to research about oxygen and rain attenuation on 58GHz radio signal.
+
+\subsection{Introduction on 58GHz band}
+Signal around 60Ghz band has a unique advantage. Around this frequency
+signal propagation is effected by oxygen molecule in the air. This phenomenon is 
+called oxygen attenuation. Because such phenomenon, signal can not propagate for long distance.
+In urban area where high bandwidth communication is required this property can increse
+frequency reuse rate. Which will conserve frequency band resource.
+
+\subsection{Calculations}
+Free space loss is the loss when signal travels through open space with no
+other attenuation. This can be calculated using following equation \cite{openspace}
+
+\begin{equation}
+    a_{sz}^{[dB]} = 32.44 + 20log f^{[MHz]}+20log d^{[km]} - G_{TX}^{[dB]} - G_{RX}^{[dB]}
+    \label{eq:openspace}
+\end{equation}
+
+Oxygen attenuation or Atmospheric attenuation is the effect of signal propagation due to
+gas in the atmosphere. A figure is given by 
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\refname}{\spacedlowsmallcaps{References}} % For modifying the bibliography heading
+
+\bibliographystyle{unsrt}
+
+\bibliography{sample} % The file containing the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
