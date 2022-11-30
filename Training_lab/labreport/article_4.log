@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  30 NOV 2022 02:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  30 NOV 2022 16:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -684,9 +684,30 @@ Class scrartcl Info: amsthm's \deferred@thm@head patched.
  (c:/texlive/2022/texmf-dist/tex/latex/tools/varioref.sty
 Package: varioref 2021/07/07 v1.6f package for extended references (FMi)
 \c@vrcnt=\count303
-)
-\c@definition=\count304
-\c@theorem=\count305
+) (c:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count304
+\lst@gtempboxa=\box58
+\lst@token=\toks33
+\lst@length=\count305
+\lst@currlwidth=\dimen183
+\lst@column=\count306
+\lst@pos=\count307
+\lst@lostspace=\dimen184
+\lst@width=\dimen185
+\lst@newlines=\count308
+\lst@lineno=\count309
+\lst@maxwidth=\dimen186
+ (c:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count310
+\lst@skipnumbers=\count311
+\lst@framebox=\box59
+) (c:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+\c@definition=\count312
+\c@theorem=\count313
 Package hyperref Info: Option `colorlinks' set `true' on input line 78.
 Package hyperref Info: Option `breaklinks' set `true' on input line 78.
 
@@ -721,17 +742,17 @@ Package scrbase Info: activating english \listfigurename on input line 50.
 Package scrbase Info: activating english \listtablename on input line 50.
  (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen183
-\scratchbox=\box58
-\nofMPsegments=\count307
-\nofMParguments=\count308
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen184
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count314
+\scratchdimen=\dimen187
+\scratchbox=\box60
+\nofMPsegments=\count315
+\nofMParguments=\count316
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen188
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
+\everyMPtoPDFconversion=\toks35
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -756,6 +777,7 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 50.
  (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -765,7 +787,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count312
+\c@section@level=\count320
 LaTeX Info: Redefining \Ref on input line 520.
 )
 LaTeX Info: Redefining \ref on input line 50.
@@ -788,8 +810,9 @@ Class scrartcl Info: loading recommended package `bookmark'.
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (c:/texlive/2022/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count313
+\BKM@id=\count321
 ))
+\c@lstlisting=\count322
 LaTeX Font Info:    Trying to load font information for T1+iwona on input line 67.
  (c:/texlive/2022/texmf-dist/tex/latex/iwona/t1iwona.fd
 File: t1iwona.fd 2008/07/22 v0.995 font definition file for T1/iwona (MW)
@@ -866,55 +889,67 @@ Overfull \hbox (0.28462pt too wide) in paragraph at lines 104--108
  []
 
 [2]
-<Figures/BUCK06.PNG, id=45, 642.4pt x 521.95pt>
+<Figures/BUCK06.PNG, id=49, 642.4pt x 521.95pt>
 File: Figures/BUCK06.PNG Graphic file (type png)
 <use Figures/BUCK06.PNG>
-Package pdftex.def Info: Figures/BUCK06.PNG  used on input line 158.
-(pdftex.def)             Requested size: 370.0pt x 300.62863pt.
+Package pdftex.def Info: Figures/BUCK06.PNG  used on input line 159.
+(pdftex.def)             Requested size: 332.99774pt x 270.56337pt.
  [3 <./Figures/BUCK06.PNG>]
-<Figures/BUCK08.PNG, id=52, 642.4pt x 521.95pt>
+<Figures/BUCK08.PNG, id=56, 642.4pt x 521.95pt>
 File: Figures/BUCK08.PNG Graphic file (type png)
 <use Figures/BUCK08.PNG>
-Package pdftex.def Info: Figures/BUCK08.PNG  used on input line 169.
+Package pdftex.def Info: Figures/BUCK08.PNG  used on input line 170.
 (pdftex.def)             Requested size: 147.99774pt x 120.24507pt.
-<Figures/BUCK09.PNG, id=53, 642.4pt x 521.95pt>
+<Figures/BUCK09.PNG, id=57, 642.4pt x 521.95pt>
 File: Figures/BUCK09.PNG Graphic file (type png)
 <use Figures/BUCK09.PNG>
-Package pdftex.def Info: Figures/BUCK09.PNG  used on input line 170.
+Package pdftex.def Info: Figures/BUCK09.PNG  used on input line 171.
 (pdftex.def)             Requested size: 147.99774pt x 120.24507pt.
-<Figures/BUCK10.PNG, id=54, 642.4pt x 521.95pt>
+<Figures/BUCK10.PNG, id=58, 642.4pt x 521.95pt>
 File: Figures/BUCK10.PNG Graphic file (type png)
 <use Figures/BUCK10.PNG>
-Package pdftex.def Info: Figures/BUCK10.PNG  used on input line 171.
+Package pdftex.def Info: Figures/BUCK10.PNG  used on input line 172.
 (pdftex.def)             Requested size: 147.99774pt x 120.24507pt.
- [4 <./Figures/BUCK08.PNG> <./Figures/BUCK09.PNG> <./Figures/BUCK10.PNG>] (./article_4.bbl
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 7.
+ [4 <./Figures/BUCK08.PNG> <./Figures/BUCK09.PNG> <./Figures/BUCK10.PNG>] [5]
+<Figures//oxygen.jpg, id=84, 710.655pt x 570.63188pt>
+File: Figures//oxygen.jpg Graphic file (type jpg)
+<use Figures//oxygen.jpg>
+Package pdftex.def Info: Figures//oxygen.jpg  used on input line 248.
+(pdftex.def)             Requested size: 332.99774pt x 267.39597pt.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 254.
  (c:/texlive/2022/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 7.
+(Font)              scaled to size 9.30756pt on input line 254.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [5] (./article_4.aux)
+ (c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) [6 <./Figures//oxygen.jpg>] [7] (./article_4.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+\T1/fvm/m/n/10.95 int / dms _ pubrec / itu-[]r / rec / p / R-[]REC-[]P . 676-[]13-[]202208-[]I ! !PDF-[]E . pdf$[][]\T1/pplj/m/n/10.95 ,
+ []
+
+) [8] (./article_4.aux)
 Package rerunfilecheck Info: File `article_4.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21037 strings out of 478268
- 396243 string characters out of 5850344
- 942738 words of memory out of 5000000
- 38821 multiletter control sequences out of 15000+600000
- 581619 words of font info for 154 fonts, out of 8000000 for 9000
+ 23331 strings out of 478268
+ 426374 string characters out of 5850344
+ 1121267 words of memory out of 5000000
+ 41068 multiletter control sequences out of 15000+600000
+ 586254 words of font info for 168 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,22n,106p,10658b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonabi.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on article_4.pdf (5 pages, 182399 bytes).
+ 108i,22n,106p,10658b,1600s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonabi.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on article_4.pdf (8 pages, 343700 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 32325 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 39506 words of extra memory for PDF output out of 42996 (max. 10000000)
 
