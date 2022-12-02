@@ -89,11 +89,6 @@ The second part is measurements, calculation and software tools realization in S
 
 \newpage % Start the article content on the second page, remove this if you have a longer abstract that goes onto the second page
 
- 
-%----------------------------------------------------------------------------------------
-%	METHODS
-%----------------------------------------------------------------------------------------
-
 \section{Part1 - radio direction finder receiver}
 
 From week 1 to 7 I was working on the radio direction finder receiver. Our task is to realize
@@ -110,10 +105,64 @@ for troubleshooting.
 Audio jack, potentiometer and crystal oscillator are through hold components which provided
 a firm connection to the PCB.
 
+\subsection{Circuit design}
+The circuit is designed in KiCad
 
+\begin{enumerate}
+\item
+The radio receiver:\\
+	The main blocks:
+	\begin{itemize}
+	\item 9 turns from 210 cm CuZ copper wire as antenna,
+	\item RF (radiofrequency) amplifier,
+	\item RF band pass filter,
+	\item BJT (bipolar junction transistor) based mixer,
+	\item local oscillator,
+	\item audio frequency low pass filter,
+	\item audio amplifier.
+	\end{itemize}
+\item
+The test transmitter:\\
+	Collpitts type oscillator, where the quartz frequency is some 100 Hz different from the receiver local oscillator frequency, in order to make audio signal and it can be heard.
+\end{enumerate}
 
+\newpage
+\subsubsection{Schematic}
+
+The schematic diagram of the receiver is in Fig. \ref{fig:schematic}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{sch.png}\\
+\caption{Schematic}
+\label{fig:schematic}
+\end{figure}
+
+\newpage
+\subsubsection{Printed Circuit Board}
+
+The designed PCB can be seen in Fig. \ref{fig:pcb}. There are THT and SMD type components.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{pcb.png}
+\caption{PCB}
+\label{fig:pcb}
+\end{figure}
+
+\subsubsection{Component placement}
+
+The components with its reference is in Fig. \ref{fig:components}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{pos.png}
+\caption{Components Placement}
+\label{fig:components}
+\end{figure}
 %------------------------------------------------
 
+\newpage
 \subsection{Measurements}
 The task is to measure the following parameters of the realized circuit and make test and measurement report based on the measurement results.
 
@@ -160,6 +209,9 @@ on the oscilloscope.
     \caption{local oscillator output}
     \label{fig:local oscillator output}
 \end{figure}
+
+From the schematic \ref{fig:schematic} we can see that a crystal oscillator with 3.579MHz frequency is used.
+Our measurement result matches this value within $0.5\%$ of error.
 
 
 \newpage
