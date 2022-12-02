@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  3 DEC 2022 00:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  3 DEC 2022 00:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -889,84 +889,66 @@ Overfull \hbox (0.28462pt too wide) in paragraph at lines 99--103
  []
 
 [2]
-<Figures//sch.png, id=55, 1448.41125pt x 890.32625pt>
+<Figures//sch.png, id=45, 1448.41125pt x 890.32625pt>
 File: Figures//sch.png Graphic file (type png)
 <use Figures//sch.png>
-Package pdftex.def Info: Figures//sch.png  used on input line 136.
+Package pdftex.def Info: Figures//sch.png  used on input line 138.
 (pdftex.def)             Requested size: 370.0pt x 227.43095pt.
  [3 <./Figures//sch.png>]
-<Figures//pcb.png, id=64, 1160.335pt x 909.3975pt>
+<Figures//pcb.png, id=54, 1160.335pt x 909.3975pt>
 File: Figures//pcb.png Graphic file (type png)
 <use Figures//pcb.png>
-Package pdftex.def Info: Figures//pcb.png  used on input line 148.
+Package pdftex.def Info: Figures//pcb.png  used on input line 150.
 (pdftex.def)             Requested size: 258.99887pt x 202.98209pt.
-<Figures//pos.png, id=66, 1153.30875pt x 921.4425pt>
+<Figures//pos.png, id=56, 1153.30875pt x 921.4425pt>
 File: Figures//pos.png Graphic file (type png)
 <use Figures//pos.png>
-Package pdftex.def Info: Figures//pos.png  used on input line 159.
+Package pdftex.def Info: Figures//pos.png  used on input line 161.
 (pdftex.def)             Requested size: 258.99887pt x 206.92194pt.
  [4 <./Figures//pcb.png> <./Figures//pos.png>] [5]
-<Figures/BUCK06.PNG, id=81, 642.4pt x 521.95pt>
+<Figures/BUCK06.PNG, id=71, 642.4pt x 521.95pt>
 File: Figures/BUCK06.PNG Graphic file (type png)
 <use Figures/BUCK06.PNG>
-Package pdftex.def Info: Figures/BUCK06.PNG  used on input line 208.
+Package pdftex.def Info: Figures/BUCK06.PNG  used on input line 210.
 (pdftex.def)             Requested size: 332.99774pt x 270.56337pt.
  [6 <./Figures/BUCK06.PNG>]
-<Figures/BUCK08.PNG, id=90, 642.4pt x 521.95pt>
+<Figures/BUCK08.PNG, id=80, 642.4pt x 521.95pt>
 File: Figures/BUCK08.PNG Graphic file (type png)
 <use Figures/BUCK08.PNG>
-Package pdftex.def Info: Figures/BUCK08.PNG  used on input line 222.
-(pdftex.def)             Requested size: 147.99774pt x 120.24507pt.
-<Figures/BUCK09.PNG, id=91, 642.4pt x 521.95pt>
+Package pdftex.def Info: Figures/BUCK08.PNG  used on input line 224.
+(pdftex.def)             Requested size: 222.00226pt x 180.37558pt.
+<Figures/BUCK09.PNG, id=81, 642.4pt x 521.95pt>
 File: Figures/BUCK09.PNG Graphic file (type png)
 <use Figures/BUCK09.PNG>
-Package pdftex.def Info: Figures/BUCK09.PNG  used on input line 223.
-(pdftex.def)             Requested size: 147.99774pt x 120.24507pt.
-<Figures/BUCK10.PNG, id=92, 642.4pt x 521.95pt>
+Package pdftex.def Info: Figures/BUCK09.PNG  used on input line 225.
+(pdftex.def)             Requested size: 222.00226pt x 180.37558pt.
+<Figures/BUCK10.PNG, id=82, 642.4pt x 521.95pt>
 File: Figures/BUCK10.PNG Graphic file (type png)
 <use Figures/BUCK10.PNG>
-Package pdftex.def Info: Figures/BUCK10.PNG  used on input line 224.
-(pdftex.def)             Requested size: 147.99774pt x 120.24507pt.
- [7 <./Figures/BUCK08.PNG> <./Figures/BUCK09.PNG> <./Figures/BUCK10.PNG>] [8]
-<Figures//oxygen.jpg, id=117, 710.655pt x 570.63188pt>
-File: Figures//oxygen.jpg Graphic file (type jpg)
-<use Figures//oxygen.jpg>
-Package pdftex.def Info: Figures//oxygen.jpg  used on input line 300.
-(pdftex.def)             Requested size: 332.99774pt x 267.39597pt.
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 306.
- (c:/texlive/2022/texmf-dist/tex/latex/bera/t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 306.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `fvm' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- (c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [9 <./Figures//oxygen.jpg>] [10] (./labreport.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
-\T1/fvm/m/n/10.95 int / dms _ pubrec / itu-[]r / rec / p / R-[]REC-[]P . 676-[]13-[]202208-[]I ! !PDF-[]E . pdf$[][]\T1/pplj/m/n/10.95 ,
- []
+Package pdftex.def Info: Figures/BUCK10.PNG  used on input line 226.
+(pdftex.def)             Requested size: 222.00226pt x 180.37558pt.
+ [7 <./Figures/BUCK08.PNG> <./Figures/BUCK09.PNG> <./Figures/BUCK10.PNG>] (./labreport.bbl
 
-) [11] (./labreport.aux)
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 3.
+
+) [8] (./labreport.aux)
 Package rerunfilecheck Info: File `labreport.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23375 strings out of 478268
- 427077 string characters out of 5850344
- 1123616 words of memory out of 5000000
- 41096 multiletter control sequences out of 15000+600000
- 586254 words of font info for 168 fonts, out of 8000000 for 9000
+ 22447 strings out of 478268
+ 417298 string characters out of 5850344
+ 962780 words of memory out of 5000000
+ 40206 multiletter control sequences out of 15000+600000
+ 583689 words of font info for 159 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,22n,106p,10658b,1600s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonabi.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on labreport.pdf (11 pages, 493950 bytes).
+ 108i,22n,106p,10658b,662s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonabi.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on labreport.pdf (8 pages, 319004 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 190 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 500000)
- 39529 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 38980 words of extra memory for PDF output out of 42996 (max. 10000000)
 
