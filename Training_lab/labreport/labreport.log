@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  3 DEC 2022 00:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  12 DEC 2022 21:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -716,7 +716,7 @@ Package hyperref Warning: Option `bookmarks' has already been used,
 (hyperref)                setting the option has no effect on input line 78.
 
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 78.
-) (./labreport.aux)
+) (./labreport.aux (./report_part2.aux))
 \openout1 = `labreport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -876,7 +876,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 74.
  [1
 
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/iwona/m/sc/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -888,67 +888,149 @@ Overfull \hbox (0.28462pt too wide) in paragraph at lines 99--103
 \T1/pplj/m/n/10.95 tran-sis-tor are pack-aged us-ing sur-face mount tech-nol-ogy(SMT). Which makes
  []
 
-[2]
-<Figures//sch.png, id=45, 1448.41125pt x 890.32625pt>
+[3]
+<Figures//sch.png, id=71, 1448.41125pt x 890.32625pt>
 File: Figures//sch.png Graphic file (type png)
 <use Figures//sch.png>
 Package pdftex.def Info: Figures//sch.png  used on input line 138.
 (pdftex.def)             Requested size: 370.0pt x 227.43095pt.
- [3 <./Figures//sch.png>]
-<Figures//pcb.png, id=54, 1160.335pt x 909.3975pt>
+ [4 <./Figures//sch.png>]
+<Figures//pcb.png, id=80, 1160.335pt x 909.3975pt>
 File: Figures//pcb.png Graphic file (type png)
 <use Figures//pcb.png>
 Package pdftex.def Info: Figures//pcb.png  used on input line 150.
 (pdftex.def)             Requested size: 258.99887pt x 202.98209pt.
-<Figures//pos.png, id=56, 1153.30875pt x 921.4425pt>
+<Figures//pos.png, id=82, 1153.30875pt x 921.4425pt>
 File: Figures//pos.png Graphic file (type png)
 <use Figures//pos.png>
 Package pdftex.def Info: Figures//pos.png  used on input line 161.
 (pdftex.def)             Requested size: 258.99887pt x 206.92194pt.
- [4 <./Figures//pcb.png> <./Figures//pos.png>] [5]
-<Figures/BUCK06.PNG, id=71, 642.4pt x 521.95pt>
+ [5 <./Figures//pcb.png> <./Figures//pos.png>] [6]
+<Figures/BUCK06.PNG, id=97, 642.4pt x 521.95pt>
 File: Figures/BUCK06.PNG Graphic file (type png)
 <use Figures/BUCK06.PNG>
 Package pdftex.def Info: Figures/BUCK06.PNG  used on input line 210.
 (pdftex.def)             Requested size: 332.99774pt x 270.56337pt.
- [6 <./Figures/BUCK06.PNG>]
-<Figures/BUCK08.PNG, id=80, 642.4pt x 521.95pt>
+ [7 <./Figures/BUCK06.PNG>]
+<Figures/BUCK08.PNG, id=107, 642.4pt x 521.95pt>
 File: Figures/BUCK08.PNG Graphic file (type png)
 <use Figures/BUCK08.PNG>
 Package pdftex.def Info: Figures/BUCK08.PNG  used on input line 224.
 (pdftex.def)             Requested size: 222.00226pt x 180.37558pt.
-<Figures/BUCK09.PNG, id=81, 642.4pt x 521.95pt>
+<Figures/BUCK09.PNG, id=108, 642.4pt x 521.95pt>
 File: Figures/BUCK09.PNG Graphic file (type png)
 <use Figures/BUCK09.PNG>
 Package pdftex.def Info: Figures/BUCK09.PNG  used on input line 225.
 (pdftex.def)             Requested size: 222.00226pt x 180.37558pt.
-<Figures/BUCK10.PNG, id=82, 642.4pt x 521.95pt>
+<Figures/BUCK10.PNG, id=109, 642.4pt x 521.95pt>
 File: Figures/BUCK10.PNG Graphic file (type png)
 <use Figures/BUCK10.PNG>
 Package pdftex.def Info: Figures/BUCK10.PNG  used on input line 226.
 (pdftex.def)             Requested size: 222.00226pt x 180.37558pt.
- [7 <./Figures/BUCK08.PNG> <./Figures/BUCK09.PNG> <./Figures/BUCK10.PNG>] (./labreport.bbl
+ [8 <./Figures/BUCK08.PNG> <./Figures/BUCK09.PNG> <./Figures/BUCK10.PNG>]
+\openout2 = `report_part2.aux'.
 
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 3.
+ (./report_part2.tex [9
 
-) [8] (./labreport.aux)
+]
+<Figures//oxygen.jpg, id=133, 710.655pt x 570.63188pt>
+File: Figures//oxygen.jpg Graphic file (type jpg)
+<use Figures//oxygen.jpg>
+Package pdftex.def Info: Figures//oxygen.jpg  used on input line 71.
+(pdftex.def)             Requested size: 332.99774pt x 267.39597pt.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 78.
+ (c:/texlive/2022/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 78.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ (c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) [10 <./Figures//oxygen.jpg>] [11]
+<Figures/signal_nov.png, id=157, 2553.54pt x 451.6875pt>
+File: Figures/signal_nov.png Graphic file (type png)
+<use Figures/signal_nov.png>
+Package pdftex.def Info: Figures/signal_nov.png  used on input line 129.
+(pdftex.def)             Requested size: 370.0pt x 65.44131pt.
+<Figures/weather_history.png, id=159, 2228.325pt x 1806.75pt>
+File: Figures/weather_history.png Graphic file (type png)
+<use Figures/weather_history.png>
+Package pdftex.def Info: Figures/weather_history.png  used on input line 130.
+(pdftex.def)             Requested size: 370.0pt x 299.97556pt.
+ [12 <./Figures/signal_nov.png> <./Figures/weather_history.png>]
+LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 160.
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)
+<Figures//dash.jpg, id=170, 1925.69438pt x 744.53156pt>
+File: Figures//dash.jpg Graphic file (type jpg)
+<use Figures//dash.jpg>
+Package pdftex.def Info: Figures//dash.jpg  used on input line 187.
+(pdftex.def)             Requested size: 370.0pt x 143.05295pt.
+ [13 <./Figures//dash.jpg>]
+Overfull \hbox (4.80438pt too wide) in paragraph at lines 204--207
+[] []\T1/iwona/b/sc/10.95/80ls mea-sure-ment res-o-lu-tion[] \T1/pplj/m/n/10.95 The res-o-lu-tion of mea-sure-ments is only 1dBm
+ []
+
+) [14] (./labreport.bbl
+Underfull \hbox (badness 1325) in paragraph at lines 4--7
+[]\T1/pplj/m/n/10.95 Nokia Net-work Oy.  \T1/pplj/m/it/10.95 Nokia Metro-Hop-per Ra-dio Prod-uct De-scrip-tion.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+\T1/fvm/m/n/10.95 int / dms _ pubrec / itu-[]r / rec / p / R-[]REC-[]P . 676-[]13-[]202208-[]I ! !PDF-[]E . pdf$[][]\T1/pplj/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 23--29
+[]\T1/pplj/m/n/10.95 International Telecom-mu-ni-ca-tion Union.  Itu-r p.838-3. spe-cific at-
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 23--29
+\T1/pplj/m/n/10.95 ten-u-a-tion model for rain for use in pre-dic-tion meth-ods.  [On-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--29
+\T1/pplj/m/n/10.95 line].Available:[][]$\T1/fvm/m/n/10.95 https : / / www . itu . int / dms _ pubrec / itu-[]r / rec / p /
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 31--35
+[]\T1/pplj/m/n/10.95 Meteoblue.  Weather archive bu-dapest.  [On-line].Available:[][]$\T1/fvm/m/n/10.95 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
+\T1/fvm/m/n/10.95 / / www . meteoblue . com / en / weather / historyclimate / weatherarchive /
+ []
+
+) [15
+
+
+] (./labreport.aux (./report_part2.aux))
 Package rerunfilecheck Info: File `labreport.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22447 strings out of 478268
- 417298 string characters out of 5850344
- 962780 words of memory out of 5000000
- 40206 multiletter control sequences out of 15000+600000
- 583689 words of font info for 159 fonts, out of 8000000 for 9000
+ 23349 strings out of 478268
+ 426108 string characters out of 5850344
+ 1131725 words of memory out of 5000000
+ 41054 multiletter control sequences out of 15000+600000
+ 581200 words of font info for 142 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,22n,106p,10658b,662s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonabi.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on labreport.pdf (8 pages, 319004 bytes).
+ 108i,23n,106p,10658b,1600s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonabi.pfb><c:/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on labreport.pdf (15 pages, 753972 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 38980 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 23184 words of extra memory for PDF output out of 24883 (max. 10000000)
 
