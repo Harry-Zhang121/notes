@@ -1,6 +1,6 @@
 #  Mobile communication systems and networks MT
 
-### Describe the basic challenges of mobile communications and solution areas (mobility, radio channel).
+## Describe the basic challenges of mobile communications and solution areas (mobility, radio channel).
 1. endpoints (terminals, user devices) are mobile
 
 	- can go to anywhere in the network
@@ -17,14 +17,14 @@
 	- it is a shared medium, namely any terminal can listen to it or transmit over it (interferece)
 
 
-### Outline the properties of radio channels.
+## Outline the properties of radio channels.
 - thermal noise is always present
 - channel attenuation is very high and is dependent on multiple factor
 - multi-path propagation
 - each path has random delay and attenuation and the sum signal arrives to the receiver
 - received signal level is random and has very sudden random changes
 
-### Outline Shannon's formula, describe the parameters in it and its consequences.
+## Outline Shannon's formula, describe the parameters in it and its consequences.
 Shannon\`s formula $$ R \leq W*log_2( 1+ \frac{P_{signal}}{P_{noise}} ) $$
 where 
 - $R$: achievable bitrate at the receiver, bits/second
@@ -37,7 +37,7 @@ where
 - the bitrate scales logarithmically with power: it is not as useful to increase the power
 
 
-### How to correct transmission errors in the radio channel (FEC, ACK, interleaving)?
+## How to correct transmission errors in the radio channel (FEC, ACK, interleaving)?
 Forward Error Correction, FEC:
 
 - error detection: existence false bits (wrongly received) can be detected, like Cyclyc Redundancy Check (CRC)
@@ -59,13 +59,13 @@ sent
 - this is the other method for error correction
 
 
-### Sketch the basic structure of mobile networks. Describe the principle of frequency reuse:
+## Sketch the basic structure of mobile networks. Describe the principle of frequency reuse:
 
-### presentation of the basic idea through an example. Outline why mobile networks are based on radio cells.
+## presentation of the basic idea through an example. Outline why mobile networks are based on radio cells.
 > Lecture note 01 page 34
 
 
-### Describe the main functionalities of the first four layers of the OSI layered model.
+## Describe the main functionalities of the first four layers of the OSI layered model.
 | Network layer | functionalities |
 |---|---|
 | Application | Application to network interaction |
@@ -73,20 +73,20 @@ sent
 | Session | Manages Opening/Closing Connection |
 | Transport | Port destination encapsulation |
 
-### Describe the basic properties of circuit switched and packet switched communications.
+## Describe the basic properties of circuit switched and packet switched communications.
 > Lecture note 02 page 9
 
-#### Circuit switching
+### Circuit switching
 - Signalling phase to establish the connection 
 - A fixed path along nodes
 - Continues data flow
 - Path is dedicated to one connection.
-#### Packet switching
+### Packet switching
 - No signalling phase
 - Network nodes forward the packets
 - Packets may take different path and may arrive in different order
 - Path can be shared 
-### Digital transmission: binary data, basic element, frames, parts of a frame.
+## Digital transmission: binary data, basic element, frames, parts of a frame.
 > Lecture note 02 page 04
 
 In digital transmission, data are transmitted in binary format. Basic element is bits, 8 bits is 1 byte.
@@ -94,38 +94,38 @@ The data is organized into frames or packets which contains **headers** and **bo
 
 
 
-### What are real time/quasi real time and non-real time services?
-#### real time service
+## What are real time/quasi real time and non-real time services?
+### real time service
 - the information should be transmitted when it is created (or with minimum latency)
 - packet loss: tolerable
 
-#### "quasi" real time
+### "quasi" real time
 - streaming voice and video
 - latency can be seconds
 
-#### non-real time service
+### non-real time service
 - latency is not a concern (second - tens of second)
 - data loss is not permitted
 
-### Describe a typical communication network hierarchy (access, aggregation, and core)?
+## Describe a typical communication network hierarchy (access, aggregation, and core)?
 **Access network**: The segment that reaches subscribers
 **Aggregation network**: Local area switches. disctrict, town
 **Core network: regional**: country wide network
 
-### What is the geographic scale of comm. networks (PAN, LAN, MAN, WAN)?
+## What is the geographic scale of comm. networks (PAN, LAN, MAN, WAN)?
 - Personal Area Network (PAN)
 - Local Area Network (LAN)
 - Metropolitan area network (MAN)
 - Wide Area Network (WAN)
 
-### Describe the Internet Protocol's addressing and routing!
+## Describe the Internet Protocol's addressing and routing!
 Addressed by IP address which is 4 8bit numbers. The IP address is used to indentify a connection interface.
 
 The router will forward the packet to the next node according to a routing table and thedestination address.
 
 
 
-### What is the Internet Protocol's packet format? What is IP tunneling?
+## What is the Internet Protocol's packet format? What is IP tunneling?
 > Lecture note 02 page 59
 
 
@@ -138,7 +138,7 @@ Packet contains headers with version, TTL, Source address and destination addres
 
 
 
-### Describe the ICMP (with an example)!
+## Describe the ICMP (with an example)!
 ICMP Internet Control Message Protocol
 - control messages at IP layer, in the payload of IP packets
 - signalling of errors, messages for discovering routes, paths
@@ -148,12 +148,12 @@ example: traceroute
 
 
 
-### What are the main differences between IPv4 and IPv6?
+## What are the main differences between IPv4 and IPv6?
 A lot more address: $2^{128}$
 eight groups of four hexadecimal numbers
 
 
-### Summarize IPv6 addressing, packet format and protocol features?
+## Summarize IPv6 addressing, packet format and protocol features?
 Features:
 - Larger Address Space
 - End-to-end Connectivity
@@ -163,16 +163,16 @@ Features:
 - Mobility
 	- this feature enables hosts (such as mobile phone) to roam around in different geographical area and remain connected with the same IP address
 
-### Describe the TCP transport protocol!
+## Describe the TCP transport protocol!
 Refer to Informatics 2 lecture notes ^_+
 
-### Describe the UDP transport protocol!
+## Describe the UDP transport protocol!
 Refer to Informatics 2 lecture notes ^_+
 
-### What is the DNS Domain Name System?
+## What is the DNS Domain Name System?
 [Check this article](https://www.cloudflare.com/learning/dns/what-is-dns/)
 
-### Describe Ethernet protocol (addressing, switching and speeds)!
+## Describe Ethernet protocol (addressing, switching and speeds)!
 
 Addressing:
 - MAC address (often called physical address) of the interface
@@ -182,4 +182,22 @@ Switching:
 - based on destination address, similar to how it is in IP router
 - does not consider anything beyond the Ethernet header
 - switch learns MAC addresses
+
+## What are the subsystems of the GSM network? What kind of functional entities (equipments) are present in the GSM system and what functions do these provide?
+
+### Mobile Station (MS)
+Containing the SIM card (Subscriber Identity Module) and Mobile Equipment
+
+### Base station subsystem (BSS)
+this is the access network, containing
+- devices for allowing mobile terminals to reach the network
+- devices for controlling the radio network
+
+### Network Switching subsystem (NSS)
+voice connections between MEs in the network and outside
+
+### Operation Subsystem (OSS)
+OSS enables the operator to supervise and monitor the network
+
+## Summarize GSM radio basics (medium access, frame structure, bursts)!
 
