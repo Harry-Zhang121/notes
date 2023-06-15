@@ -1,9 +1,0 @@
-There is an increasing number of people who are becoming curious about the history behind their residance. Such peace of information can be useful in a lot of ways as it can introduce people with history around the same time period and help house owners to schduale house maintainence wisely. Aquiring this information is not hard as well as there are multiple ways of doing so.
-
-First, learning about the history of one's own residancial building can be a good starting point of learning history. To better understand the history of a perticular building often times required a broad background knowladge. People could be inspired to learn more about these fundamental information while they do research on their house. In addition, some buildings, espeacially old buildings, may be related to some historical events. By knowing this information people can have an unique experience of "living in a museum".
-
-On the more practical perspective, the condition of buildings can be better understood by researching related history. House owners can better estimate the life time of a building by checking the construction and geology report when it was being built. Water supply system is another common failing point of constructions. By look up related historical documents people can  decided whither water treatment solution is required as aged water pips could cause water unsutiable for drinking.
-
-There are several ways to enquiry historical information around houses and buildings. City archive is a perfact resouces for finding blue prints and offical reports since keeping these documents is part of goverment regulations. it's also a good idea to ask other residance around the neighborhood.
-
-In conclusion, learning the history of your residential buildings have many benifits and finding such information can be easy and accurate.
